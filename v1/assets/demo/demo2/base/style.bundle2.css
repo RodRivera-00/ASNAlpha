@@ -14,5 +14,9 @@
 }
 
 .m-portlet__body_topwatch {
-	padding: 5px 2.2rem;
+	padding: 5px 2.2rem;	
+}
+
+.m-page .m-page__container .my_footer{
+    padding: 0 30px;
 }
