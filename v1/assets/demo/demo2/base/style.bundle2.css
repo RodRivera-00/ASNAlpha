@@ -20,3 +20,174 @@
 .m-page .m-page__container .my_footer{
     padding: 0 30px;
 }
+
+video {
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+.fc .fc-toolbar {
+
+    margin-top: 0.75em;
+}
+.fc .fc-toolbar>*>* {
+    float: none;
+    margin-left: 0em;
+}
+
+body.dark .widget {
+    background: #1d1b26;
+}
+.widget {
+    background: #fff;
+    -webkit-border-radius: 3px;
+    -khtml-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    border-radius: 3px;
+    margin-bottom: 15px;
+    -webkit-box-shadow: 0 2px 3px rgba(0,0,0,.1);
+    -khtml-box-shadow: 0 2px 3px rgba(0,0,0,.1);
+    -moz-box-shadow: 0 2px 3px rgba(0,0,0,.1);
+    -ms-box-shadow: 0 2px 3px rgba(0,0,0,.1);
+    -o-box-shadow: 0 2px 3px rgba(0,0,0,.1);
+    box-shadow: 0 2px 3px rgba(0,0,0,.1);
+}
+body.dark .widget .widget-title {
+    border-bottom-color: #312f40;
+}
+.widget .widget-title {
+    border-bottom: 1px solid #eee;
+    min-height: 35px;
+    padding: 0 10px;
+}
+* {
+    outline: 0;
+    text-decoration: none;
+}
+body.dark .widget .widget-title .title {
+    color: #c20000;
+}
+.widget.servers .widget-title .title {
+    margin-right: 10px;
+}
+.widget .widget-title .title {
+    font-size: 1.1em;
+    display: inline;
+    line-height: 35px;
+    color: #c20000;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+#footer .azlist ul, #footer .azlist ul li, #footer .main .linkc .links ul, #footer .main .mainc p, #header .nav #menu, #header .nav #menu>li .sub, #header .nav #menu>li .sub>li, .faq ol li .question, .filters .filter .dropdown-menu, .filters .filter li input, .filters .filter li label, .fit, .profile-page .sidebar ul.menu, .tooltipster-sidetip.anime .tooltipster-box .tooltipster-content .inner .desc label, .tooltipster-sidetip.anime .tooltipster-box .tooltipster-content .inner .meta label, .tooltipster-sidetip.anime .tooltipster-box .tooltipster-content .inner .title h1, .widget .widget-title .title, .widget .widget-title .title h1, .widget .widget-title .title h2, .widget .widget-title .title h3, .widget.az-list ul.letters, .widget.az-list ul.letters li, .widget.genres ul, .widget.genres ul li, .widget.info .info .head .title, .widget.servers ul.episodes, .widget.servers ul.episodes li, .widget.slider .item .info p {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+body.dark .widget .widget-title .tabs .tab.active {
+    color: #888;
+}
+body.dark .widget .widget-title .tabs .tab {
+    color: #6f6f6f;
+}
+.widget.servers .widget-title .tabs .tab {
+    margin: 0 4px;
+}
+.widget .widget-title .tabs .tab.active {
+    border-bottom: 2px solid #c20000;
+}
+.widget .widget-title .tabs .tab {
+    display: inline-block;
+    padding: 6px 7px;
+    border-bottom: 2px solid transparent;
+    cursor: pointer;
+}
+
+.widget .widget-body {
+    padding: 10px;
+}
+
+* {
+    outline: 0;
+    text-decoration: none;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.widget.servers ul.episodes {
+    margin-bottom: 20px;
+}
+#footer .azlist ul, #footer .azlist ul li, #footer .main .linkc .links ul, #footer .main .mainc p, #header .nav #menu, #header .nav #menu>li .sub, #header .nav #menu>li .sub>li, .faq ol li .question, .filters .filter .dropdown-menu, .filters .filter li input, .filters .filter li label, .fit, .profile-page .sidebar ul.menu, .tooltipster-sidetip.anime .tooltipster-box .tooltipster-content .inner .desc label, .tooltipster-sidetip.anime .tooltipster-box .tooltipster-content .inner .meta label, .tooltipster-sidetip.anime .tooltipster-box .tooltipster-content .inner .title h1, .widget .widget-title .title, .widget .widget-title .title h1, .widget .widget-title .title h2, .widget .widget-title .title h3, .widget.az-list ul.letters, .widget.az-list ul.letters li, .widget.genres ul, .widget.genres ul li, .widget.info .info .head .title, .widget.servers ul.episodes, .widget.servers ul.episodes li, .widget.slider .item .info p {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.widget.servers .range {
+    margin: 5px 0;
+    margin-bottom: 12px;
+    padding: 0 3px;
+}
+ol, ul {
+    margin-top: 0;
+    margin-bottom: 9px;
+}
+
+.widget.servers ul.episodes li {
+    display: inline-block;
+}
+body.dark .widget.servers ul.episodes li a.active, body.dark .widget.servers ul.episodes li a:hover {
+    background: #c20000;
+    color: #ddd;
+}
+body.dark .widget.servers ul.episodes li a:visited {
+    background: #332a46;
+    color: #676767;
+}
+body.dark .widget.servers ul.episodes li a {
+    background: #28262f;
+    color: #747474;
+    border: none;
+}
+.widget.servers ul.episodes li a.active {
+    background-color: #c20000;
+    color: #fff;
+}
+.widget.servers ul.episodes li a:visited {
+    background: #e6e1f1;
+    border-color: #cabee1;
+}
+.widget.servers ul.episodes li a {
+    display: block;
+    height: 28px;
+    line-height: 28px;
+    min-width: 38px;
+    padding: 0 8px;
+    text-align: center;
+    font-weight: 300;
+    margin: 4px;
+    -webkit-border-radius: 3px;
+    -khtml-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    border-radius: 3px;
+    background: #eee;
+    color: #8c8c8c;
+    border-bottom: 1px solid #eee;
+    font-size: 1.05rem;
+}
+body.dark a {
+    color: #c20000;
+}
+a {
+    color: #c20000;
+    text-decoration: none;
+}
+a {
+    background-color: transparent;
+}
