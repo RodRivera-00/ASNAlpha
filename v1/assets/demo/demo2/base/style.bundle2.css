@@ -191,3 +191,12 @@ a {
 a {
     background-color: transparent;
 }
+
+.m-container.m-container--responsive.m-container--xxl {
+    width: 100%;
+}   
+
+.mr-auto, .mx-auto {
+    margin-right: auto!important;
+    margin-left: auto!important;
+}
