@@ -153,12 +153,8 @@ body.dark .widget.servers ul.episodes li a {
     color: #747474;
     border: none;
 }
-.widget.servers ul.episodes li a.active {
-    background-color: #c20000;
-    color: #fff;
-}
 .widget.servers ul.episodes li a:visited {
-    background: #e6e1f1;
+    background: #eee;
     border-color: #cabee1;
 }
 .widget.servers ul.episodes li a {
@@ -180,6 +176,10 @@ body.dark .widget.servers ul.episodes li a {
     color: #8c8c8c;
     border-bottom: 1px solid #eee;
     font-size: 1.05rem;
+}
+.widget.servers ul.episodes li a.active {
+    background-color: #c20000;
+    color: #fff;
 }
 body.dark a {
     color: #c20000;
