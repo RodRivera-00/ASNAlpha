@@ -200,3 +200,21 @@ a {
     margin-right: auto!important;
     margin-left: auto!important;
 }
+.irs-from, .irs-single, .irs-to {
+    color: #fff;
+    font-size: 10px;
+    line-height: 1.333;
+    text-shadow: none;
+    padding: 1px 5px;
+    background: #c20000;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+
+.fc-right_slider {
+    float: right;
+}
+
+.fc-left_slider {
+    float: left;
+}
