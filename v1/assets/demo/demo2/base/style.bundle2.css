@@ -57,6 +57,9 @@ body.dark .widget {
 body.dark .widget .widget-title {
     border-bottom-color: #312f40;
 }
+.plyr__captions {
+    font-size: 200%;
+  }
 .widget .widget-title {
     border-bottom: 1px solid #eee;
     min-height: 35px;

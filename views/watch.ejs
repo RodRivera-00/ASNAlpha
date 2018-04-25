@@ -1405,9 +1405,9 @@
 
 												<!--Start Video-->
 
-												<video poster="/path/to/poster.jpg" id="player" playsinline controls>
-													<source src="http://206.189.35.79/processed/onepiece/ep<%- episode %>.mp4" type="video/mp4" size="720">
+												<video poster="/path/to/poster.jpg" id="player" controls crossorigin playsinline preload="metadata">
 													<source src="http://206.189.35.79/processed/onepiece/ep<%- episode %>.mp4" type="video/mp4" size="1080">
+													<track kind="captions" label="English" srclang="en" src="http://206.189.35.79/processed/onepiece/ep<%- episode %>.vtt" default>
 												</video>
 												<!--End Video-->
 												<div class="row" style="margin:15px">
@@ -2159,6 +2159,23 @@
 	<!--end::Page Vendors -->
 	<!--begin::Page Snippets -->
 	<script src="assets/app/js/dashboard.js" type="text/javascript"></script>
+	<script>
+		const player = new Plyr('#player');
+		player.debug = true
+		player.loadSprite = true
+		player.quality = {
+			default: '1080p',
+			options: ['1080p', '720p', '480p', '360p']
+		}
+		player.settings = ['captions', 'quality', 'speed', 'loop']
+		player.on('enterfullscreen', event => {
+			$('.plyr__captions').css('font-size', '500%')
+		});
+				player.on('exitfullscreen', event => {
+			$('.plyr__captions').css('font-size', '200%')
+		});
+
+	</script>
 	<!--end::Page Snippets -->
 
 </body>
