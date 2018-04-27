@@ -17,7 +17,7 @@ var data = {
 }
 app.get("/:episodenum", function (req, res) {
     data.session = req.session
-    data.episode = parsetInt(req.params.episodenum)
+    data.episode = parseInt(req.params.episodenum)
     res.render("watch", data)
 })
 app.listen(81, () => console.log('Started at port 81'))
