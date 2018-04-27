@@ -1,2 +1,3 @@
 Proper scaling: Watch, profile, slider pages (75% of screen)
 Larger logo  on login/register pages
+Fix active tabs on menu
