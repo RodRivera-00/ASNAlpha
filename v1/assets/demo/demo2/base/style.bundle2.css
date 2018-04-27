@@ -310,3 +310,11 @@ video#player {
 .btn_edit:not(.btn-sm):not(.btn-lg) {
     line-height: 1.44;
 }
+
+.container {
+    max-width: 100%;
+}
+
+div.widget.servers {
+    width: 100%;
+}
