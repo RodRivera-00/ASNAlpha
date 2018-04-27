@@ -278,3 +278,35 @@ video#player {
     background: #4CAF50;
     cursor: pointer;
 }
+
+.input-group-addon, .input-group-btn {
+    width: 0; 
+    white-space: nowrap;
+    vertical-align: middle;
+}
+
+.btn_edit {
+    display: inline-block;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    user-select: none;
+    border: 1px solid transparent;
+    font-size: 1rem;
+    line-height: 1.25;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    padding: 6px;
+}
+
+.btn_edit:not(:disabled):not(.disabled) {
+    cursor: pointer;
+}
+.btn_edit.green-haze:not(.btn-outline) {
+    color: #FFFFFF;
+    background-color: #c20000;
+    border-color: #c20000;
+}
+.btn_edit:not(.btn-sm):not(.btn-lg) {
+    line-height: 1.44;
+}
