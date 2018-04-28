@@ -324,3 +324,15 @@ div.widget.servers {
     margin-top: 10px;
     text-align: center;
 }
+
+.m-header-search .m-header-search__wrapper_2 {
+    display: table;
+    table-layout: fixed;
+    text-align: right;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    border-radius: 30px !important;
+    background-color: #fff;
+}
