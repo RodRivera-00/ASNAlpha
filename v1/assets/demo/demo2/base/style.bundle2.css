@@ -318,3 +318,9 @@ video#player {
 div.widget.servers {
     width: 100%;
 }
+
+.login .logo_new {
+    margin: 0 auto;
+    margin-top: 10px;
+    text-align: center;
+}
