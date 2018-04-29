@@ -336,3 +336,33 @@ div.widget.servers {
     border-radius: 30px !important;
     background-color: #fff;
 }
+
+.portlet.light.bordered {
+    border: 4px solid #e7ecf1!important;
+}
+.portlet.light {
+    padding: 12px 20px 15px;
+    background-color: #fff;
+}
+.portlet.bordered {
+    border-left: 2px solid #e6e9ec!important;
+}
+.portlet {
+    margin-top: 0;
+    margin-bottom: 25px;
+    padding: 0;
+    border-radius: 4px;
+}
+.dashboard-stat, .portlet {
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+
+.table_2 {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 0rem;
+    background-color: transparent;
+}
