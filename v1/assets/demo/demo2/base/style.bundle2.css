@@ -340,6 +340,10 @@ div.widget.servers {
 .portlet.light.bordered {
     border: 4px solid #e7ecf1!important;
 }
+.portlet.light.bordered_genre {
+    border: 4px solid #e7ecf1!important;
+    display: inline-block;
+}
 .portlet.light {
     padding: 12px 20px 15px;
     background-color: #fff;
@@ -365,4 +369,12 @@ div.widget.servers {
     max-width: 100%;
     margin-bottom: 0rem;
     background-color: transparent;
+}
+
+.genre_box {
+    width: 150px;
+    height: 245px;
+    float: left;
+    margin: 0 10px 10px 0;
+    background-color: black;
 }
